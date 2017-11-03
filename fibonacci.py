@@ -24,25 +24,38 @@
 ##################################################################################
 
 
+import math
+
 sucesion = int(input("Elegir una sucesion: (1)S. de Fibonacci y (2)S. de Lucas: "))
 
 if sucesion == 1:
     Fk = 0
     Fk1 = 1
     fibonacci = [Fk, Fk1]
-    fin = int(input("Hasta que numero se calcula: "))
+    fibonacci2 = 0
+    fin = int(input("Hasta que iteracion se calcula: "))
 else:
     Fk = 2
     Fk1 = 1
     fibonacci = [Fk,Fk1]
-    fin = int(input("Hasta que numero se calcula: "))
+    fin = int(input("Hasta que iteracion se calcula: "))
 
-
-# FORMULA ES Fk+2 = Fk+1 + Fk
-
-for fib in range(0,fin-2):
+#Formula 1
+for fib in range(0,fin-1):
     Fk=fibonacci[fib]
     Fk1=fibonacci[fib+1]
     Fkn= Fk + Fk1
     fibonacci.append(Fkn)
-print fibonacci
+
+#Formula 2
+fini = 0
+raiz5 = math.sqrt(5)
+prim = 1 / raiz5
+lambda1 = ((1 + raiz5) / 2) ** fin
+lambda2 = ((1 - raiz5) / 2) ** fin
+restalambdas = lambda1 - lambda2
+fibonacci2 = prim * restalambdas
+
+print fibonacci[fin]
+print fibonacci2
+
