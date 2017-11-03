@@ -21,6 +21,9 @@
 #  pero cuyas condiciones iniciales son Lk= 2 y Lk1= 1 y calcule los valores
 #  de L k para k = 0,1, ... , 25
 #
+#  (c) Defina, como función de k, el valor de Fk según la fórmula cerrada (2)
+#  y confirme que le da los mismos valores de Fk para k = 0, 1, ..., 25
+#
 ##################################################################################
 
 
