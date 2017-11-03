@@ -2,7 +2,7 @@
 #################################################################################
 #
 #  Geog Rosa Peralta
-#  Ing Gerardo
+#  Ing Gerardo Martinez
 #
 #  Sistemas Dinamicos 1er Parcial
 #
