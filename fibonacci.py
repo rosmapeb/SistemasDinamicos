@@ -29,7 +29,7 @@
 
 import math
 
-sucesion = int(input("Elegir una sucesion: (1)S. de Fibonacci y (2)S. de Lucas: "))
+sucesion = int(input("Elegir una sucesion: (1)Fibonacci y (2)Lucas: "))
 
 if sucesion == 1:
     Fk = 0
