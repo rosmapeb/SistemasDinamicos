@@ -51,7 +51,6 @@ for fib in range(0,fin-1):
     fibonacci.append(Fkn)
 
 #Formula 2
-fini = 0
 raiz5 = math.sqrt(5)
 prim = 1 / raiz5
 lambda1 = ((1 + raiz5) / 2) ** fin
